@@ -26,7 +26,7 @@ furhat.gesture(body={
     "frames": [
         {
             "time": [
-                0.33
+                1.0
             ],
             "params": {
                 "BLINK_LEFT": 1.0
