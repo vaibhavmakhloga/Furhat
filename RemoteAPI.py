@@ -10,7 +10,7 @@ voices = furhat.get_voices()
 furhat.set_voice(name='Mathew')
 
 # Say "Hi there!"
-furhat.say(text="Vaibhav Singh Makhloga!")
+furhat.say(text="My name is Vaibhav Singh Makhloga")
 
 # Play an audio file (with lipsync automatically added) 
 #furhat.say(url="https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav", lipsync=True)
@@ -55,6 +55,6 @@ furhat.attend(userid="virtual-user-1")
 
 # Attend a specific location (x,y,z)
 furhat.attend(location="0.0,0.2,1.0")
-
+    
 # Set the LED lights
-furhat.set_led(red=500, green=200, blue=500)
+furhat.set_led(red=500, green=200)
